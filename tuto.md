@@ -416,11 +416,11 @@ eet affichage de son contenu
         ```
         Your flag is: "***********************" without the quotes.
         ```
-- Retour au répertoire parent : **/home/level** 
+- Retour au répertoire des level : **/home/level** 
     
     entré :
     ```sh
-    cd ..
+    cd /home/level
     ```
 > [!NOTE]
 >La solution est dans : **~/level/04_kwisatz/README2.md** mais il faut d'abord ajouter le droit de lecture pour ce fichier.
