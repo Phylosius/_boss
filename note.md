@@ -2,7 +2,7 @@
  - level00 : bitwarrior
  - level01 : patience
  - level02 : HiddenIsConfig
- - level03 : 
+ - level03 : RepeatingHistory
  - level04 : 
  - level05 : 
  - level06 : 

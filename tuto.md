@@ -269,3 +269,40 @@ Tout les solution ont été remplacé par des suite d'astérix (ex: *****)
 > [!NOTE]
 >La solution est dans : **.porb/.solution**
 
+## Level 03
+- Entrer dans le répertoire du niveau: **/home/level/03**
+
+    entré :
+    ```sh
+    cd /home/level/03
+    ```
+- Affichage du contenu du répertoire courant (element caché compris) : **/home/level/03**
+
+    entré :
+    ```sh
+    ls -a
+    ```
+    sortie :
+    ```
+    .  ..  .bash_history  .local
+    ```
+- Affichage du contenu de **.bash_history**
+
+    entré :
+    ```sh
+    cat .bash_history
+    ```
+    sortie (résumé): **on remarque une ligne qui donne la solution**
+    ```
+    The solution to SSH3 is: ****************
+    ```
+- Retour au répertoire parent : **/home/level** 
+    
+    entré :
+    ```sh
+    cd ..
+    ```
+> [!NOTE]
+>La solution est dans : **./.bash_history**
+
+
