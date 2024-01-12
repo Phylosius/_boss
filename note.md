@@ -1,6 +1,6 @@
 ## Solution
  - level00 : bitwarrior
- - level01 : 
+ - level01 : patience
  - level02 : 
  - level03 : 
  - level04 : 
