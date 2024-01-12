@@ -1,10 +1,23 @@
-# Warchall - Begins
-## Level 0 - Level 1
-- je regarde où je me trouve avec cette commande :
-    ```bash
-    pwd
-    ```
-    sortie :
-    ```
-    /home/user/duduk
-    ```
+## Solution
+ - level00 : bitwarrior
+ - level01 : 
+ - level02 : 
+ - level03 : 
+ - level04 : 
+ - level05 : 
+ - level06 : 
+ - level07 : 
+ - level08 : 
+ - level09 : 
+ - level10 : 
+ - level11 : 
+ - level12 : 
+ - level13 : 
+ - level14 : 
+ - level15 : 
+ - level15 : 
+ - level17 : 
+ - level18 : 
+ - level19 : 
+ - level20 : 
+
