@@ -260,6 +260,12 @@ Tout les solution ont été remplacé par des suite d'astérix (ex: *****)
     The solution is **************
 
     ```
+- Retour au répertoire parent : **/home/level** 
+    
+    entré :
+    ```sh
+    cd ..
+    ```
 > [!NOTE]
 >La solution est dans : **.porb/.solution**
 
