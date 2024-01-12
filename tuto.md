@@ -1,4 +1,5 @@
 # Warchall - Begins
+Tout les solution ont été remplacé par des suite d'astérix (ex: *****)
 ## Level 00
 - Affichage du répertoire courant.
 
@@ -202,4 +203,63 @@
     ----
     > [!NOTE]
     > Après avoir régarder une à une le contenu de tous les fichiers trouvés, on constate que **la solution est dans le fichiers SOLUTION.txt** (./blue/hats/grey/solution/patience/SOLUTION.txt
-)
+    )
+- Retour au répertoire parent : **/home/level** 
+    
+    entré :
+    ```sh
+    cd ..
+    ```
+> [!NOTE]
+> La solution est dans : /home/level/01_choice_tree/blue/hats/grey/solution/patience/SOLUTION.txt
+
+## Level 02
+- Entrer dans le répertoire du niveau: **/home/level/02**
+
+    entré :
+    ```sh
+    cd /home/level/02
+    ```
+- Affichage du contenu du répeertoire courant : **/home/level/02**
+
+    entré :
+    ```sh
+    ls
+    ```
+    sortie :
+    ```
+    documents  photos
+    ```
+    . On trouve deux dossiers.
+- Affichage récursive du contenu (element caché comprise) du répertoire courant : **/home/level/02**
+
+    entré :
+    ```sh
+    ls -R -al
+    ```
+    sortie (résumé) :
+    on trouve 3 fichiers
+    ```sh
+    # thumbnails
+    ./photos/thumbnails
+    # letter.txt
+    ./documents/letter.txt
+    # .solution
+    ./.porb/.solution
+    ```
+- Vérification du contenu des fichiers trouvés
+    
+    Après avoir regarder une à une le contenu des trois fichiers trouvés, on constate que __la solution est dans : *.porb/.solution*__
+
+    entré :
+    ```sh
+    cat .porb/.solution
+    ```
+    sortie :
+    ```
+    The solution is **************
+
+    ```
+> [!NOTE]
+>La solution est dans : **.porb/.solution**
+
