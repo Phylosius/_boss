@@ -359,7 +359,7 @@ Tout les solution ont été remplacé par des suite d'astérix (ex: *****)
     04_kwisatz
     ```
 - Entrer dans le répertoire **04_kwisatz**
-eet affichage de son contenu
+et affichage de son contenu
 
     entré :
     ```sh
@@ -425,4 +425,38 @@ eet affichage de son contenu
 > [!NOTE]
 >La solution est dans : **~/level/04_kwisatz/README2.md** mais il faut d'abord ajouter le droit de lecture pour ce fichier.
 
+## Level 05
+- Entrer dans le répertoire du niveau: **/home/level/05_privacy**
+
+    entré :
+    ```sh
+    cd /home/level/05_privacy
+    ```
+- Affichage du contenu du répertoire courant : **/home/level/05_privacy**
+
+    entré :
+    ```sh
+    ls
+    ```
+    sortie :
+    ```
+    README.md
+    ```
+- Affichage du contenu de __README.md__
+
+    entré :
+    ```sh
+    cat README.md
+    ```
+    sortie (Résumé):
+    __il y a une ligne qui donne la solution__.
+    ```
+    The 5th solution is "*********" without the quotes.
+    ```
+> [!NOTE]
+> La solution est dans __./README.md__
+
+
+
+ 
     

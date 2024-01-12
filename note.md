@@ -4,7 +4,7 @@
  - level02 : HiddenIsConfig
  - level03 : RepeatingHistory
  - level04 : AndOfCourseIDoKnowChown
- - level05 : AndOfCourseIDoKnowChown
+ - level05 : OKPRIVATE
  - level06 : 
  - level07 : 
  - level08 : 
