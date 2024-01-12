@@ -3,8 +3,8 @@
  - level01 : patience
  - level02 : HiddenIsConfig
  - level03 : RepeatingHistory
- - level04 : 
- - level05 : 
+ - level04 : AndOfCourseIDoKnowChown
+ - level05 : AndOfCourseIDoKnowChown
  - level06 : 
  - level07 : 
  - level08 : 

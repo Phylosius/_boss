@@ -305,4 +305,124 @@ Tout les solution ont été remplacé par des suite d'astérix (ex: *****)
 > [!NOTE]
 >La solution est dans : **./.bash_history**
 
+# Level 04
+- Entrer dans le répertoire du niveau: **/home/level/04_kwisatz**
 
+    entré :
+    ```sh
+    cd /home/level/04_kwisatz
+    ```
+- Affichage du contenu du répertoire courant (element caché compris) : **/home/level/04_kwisatz**
+
+    entré :
+    ```sh
+    ls -a
+    ```
+    sortie :
+    ```
+    README.nfo
+    ```
+- Affichage du contenu de **README.nfo**
+
+    entré :
+    ```sh
+    cat README.nfo
+    ```
+    sortie :
+    ```
+    Look in your ~
+
+    ```
+- Déplacement vers mon ~ (répertoire personnel) avec la commande:
+    ```
+    cd
+    ```
+- Affichage du contenu de mon répertoire personnel
+
+    entré :
+    ```sh
+    ls
+    ```
+    sortie :
+    ```
+    WELCOME.md  level  www  www_access.log  www_error.log
+    ```
+- Entrer dans le répertoire **level** et affichage de son contenu
+
+    entré :
+    ```sh
+    ~$ cd level
+    ~$ ls
+    ```
+    sortie :
+    ```
+    04_kwisatz
+    ```
+- Entrer dans le répertoire **04_kwisatz**
+eet affichage de son contenu
+
+    entré :
+    ```sh
+    ~$ cd 04_kwisatz
+    ~$ ls
+    ```
+    sortie :
+    ```
+    README.txt  README2.md
+    ```
+- Affichage du contenu de **README.txt**
+
+    entré :
+    ```sh
+    cat README.txt
+    ```
+    sortie :
+    ```
+    Dear Future Hacker,
+
+    I wrote you an important message in README2.md
+    Please act accordingly.
+
+    The WarChall Staff 2023!
+
+    (c) 2011 kwisatz
+    ```
+    >[!NOTE]
+    > On nous dit de voir le contenu de __README2.md__
+ - Affichage du contenu de __README2.md__
+    - affichage avec : _cat_
+    
+        entré :
+        ```sh
+        cat README2.md
+        ```
+        sortie :
+        ```
+        cat: README2.md: Permission denied
+        ```
+        . On n'a pas la permission pour la lecture du fichier
+
+    - ajout du droit de lecture du fichier __README2.md__
+        ```sh
+        chmod +r README2.md
+        ```
+
+    - affichage avec _cat_
+        entré :
+        ```sh
+        cat README2.md
+        ```
+        résumé de la sortie : __on a une ligne qui donne la solution__ du niveau (flag):
+        ```
+        Your flag is: "***********************" without the quotes.
+        ```
+- Retour au répertoire parent : **/home/level** 
+    
+    entré :
+    ```sh
+    cd ..
+    ```
+> [!NOTE]
+>La solution est dans : **~/level/04_kwisatz/README2.md** mais il faut d'abord ajouter le droit de lecture pour ce fichier.
+
+    
