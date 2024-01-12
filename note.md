@@ -1,7 +1,7 @@
 ## Solution
  - level00 : bitwarrior
  - level01 : patience
- - level02 : 
+ - level02 : HiddenIsConfig
  - level03 : 
  - level04 : 
  - level05 : 
